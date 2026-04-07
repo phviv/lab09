@@ -87,8 +87,14 @@ p::selection{
 }
 
 /* Exercice 16 */
-
+.exercice16 :not(:lang(fr)){
+  color: red;
+}
 /* Exercice 17 */
+label:checked{
+  color: red;
+}
+
 
 /* Exercice 18 */
 
